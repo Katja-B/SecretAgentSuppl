@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	font-size:18px;
+	font-family: Helvetica;
+	color: white;
+	}
+	
+.container {
+	display:block;
+	margin:auto;
+	width: 960px;
+	}
+	
+/* Header logo */
+
+#logo {
+	background-color: black;
+	}
+	
+.logo {
+	display: flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	}
+
+#logo img {
+	height: 1.5rem;
+	margin: auto 1rem auto 0.5rem;
+	}
+	
+#logo h2 {
+	color: white;
+	padding-top: 0.66rem;
+	padding-bottom: 0.66rem;
+	text-transform: uppercase;
+	font-size: 1rem;
+	}
+	
+/* Header lead space */
+
+#feature {
+	background-image: url("../images/moto.jpeg");
+	height: 25rem;
+	background-size: cover;
+	display: flex;
+	}
+	
+#arrival {
+	width: 20rem;
+	background-color: black;
+	margin-top: 9rem;
+	padding: 2rem 3rem;
+	}
+	
+#arrival h2 {
+	font-size: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 0.25rem;
+	}
+	
+#arrival h1 {
+	margin-top: 0.25rem;
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	}
+
+/* Header lead space */
+
+nav {
+	background-color: firebrick;
+	}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	}
+
+li {
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+	}
+	
+a:link {
+	color: white;
+	text-decoration: none;
+	}
+
+/* Main products */
+
+#products {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	}
+	
+.product {
+	margin-top: 3rem;
+	width: 30%;
+	border: medium solid black;
+	display: flex;
+	flex-direction: column;
+	}
+	
+.product img {
+	height: 9rem;
+	width: auto;
+	margin: 2rem auto;
+	display: block;
+	overflow: hidden;
+	}
+	
+#glasses {
+	width: 60%;
+	height: auto;
+	margin: auto;
+	}
+	
+.product p {
+	background-color: black;
+	padding: 0.5rem;
+	text-align: center;
+	}
+	
+/* Main contacts */
+
+#contact {
+	margin-top: 3rem;
+	margin-bottom: 4rem;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	}
+
+.contactinfo {
+	display: block;
+	width: 35%;
+	}
+	
+.contactinfo h3 {
+	background-color: black;
+	padding: 1rem 2rem;
+	margin-bottom: 0.25rem;
+	}
+	
+.contactinfo p {
+	color: black;
+	}
+	
+/* Footer */
+
+footer {
+	height: 5rem;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	}
+	
+footer p {
+	text-align: left;
+	}
