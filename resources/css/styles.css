@@ -261,6 +261,8 @@ footer p {
 		font-size: 1rem;
 		}
 	
+	/* How can I get bring "Menu" closer to front? Z-index does not seem to help...*/
+	
 	#menu {
 		display: flex;
 		justify-content:center;
