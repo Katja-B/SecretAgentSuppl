@@ -70,6 +70,10 @@ html {
 
 /* Header lead space */
 
+#menu {
+	display: none;
+	}
+
 nav {
 	background-color: firebrick;
 	}
@@ -165,3 +169,53 @@ footer {
 footer p {
 	text-align: left;
 	}
+	
+
+/* Tablet screen */
+
+@media only screen and (max-width: 1024px) {
+	
+	.container {
+		display:block;
+		margin: 0;
+		width: 100%;
+	}
+	
+	.logo {
+		display: flex;
+		flex-direction:row;
+		justify-content:flex-start;
+	}
+	
+	ul {
+		display: none;
+	}
+	
+	#menu {
+		display: flex;
+		justify-content:center;
+		padding-top: 0.75rem;
+		padding-bottom: 0.75rem;
+	}
+	
+	
+		/*get rid of sun glasses */
+	#products {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 100%;
+	}
+	
+	.product {
+		margin-top: 3rem;
+		width: 47%;
+		border: medium solid black;
+		display: flex;
+		flex-direction: column;
+		}
+		
+	.glasses {
+		display:none;
+		}
+}
